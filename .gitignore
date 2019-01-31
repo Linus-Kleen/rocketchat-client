@@ -1,0 +1,5 @@
+.idea/
+examples/.credentials.php
+vendor/
+composer.lock
+composer.phar
