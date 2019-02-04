@@ -1,6 +1,6 @@
 <?php
 /**
- * @author    Oliver Schieche <github+rc-lclient@spam.oliver-schieche.de>
+ * @author    Oliver Schieche <github+rc-client@spam.oliver-schieche.de>
  * @copyright 2019
  */
 namespace LinusKleen\Lib\RocketChat\Authentication\Storage;
