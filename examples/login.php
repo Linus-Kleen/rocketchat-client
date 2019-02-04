@@ -16,7 +16,7 @@ require __DIR__ . '/.credentials.php';
 
 try {
     $client = new Client(\LOGIN_HOST);
-    $auth = $client->setAuthenticationStorage(File::class, ['/root/rc.auth'])
+    $auth = $client->setAuthenticationStorage(File::class, ['./rc.auth'])
         ->login(\LOGIN_USER, \LOGIN_PASS, true);
     \var_dump($auth);
 } catch (\Exception $exception) {
